@@ -1,0 +1,14 @@
+.nav{
+  display:  flex;
+  flex-direction: row;
+  &__menu{
+  display:  flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.25rem;
+
+  &__link{
+    color: var(--secondary-color)
+  }
+  }
+}
