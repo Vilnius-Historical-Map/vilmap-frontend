@@ -1,7 +1,8 @@
-import { Header } from "@ui/header/header.component.tsx"
+import { Layout } from "@ui/layout/layout"
+
 function App() {
   return (
-    <Header />
+   <Layout/>
   )
 }
 
