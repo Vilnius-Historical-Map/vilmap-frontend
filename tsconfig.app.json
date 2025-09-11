@@ -22,7 +22,11 @@
       "@styles/*": ["src/styles/*"],
       "@assets/*": ["src/assets/*"],
       "@images/*": ["src/assets/images/*"],
-      "@ui/*": ["src/ui/*"]
+      "@ui/*": ["src/ui/*"],
+      "@features/*": ["src/features/*"],
+      "@pages/*": ["src/features/pages/*"],
+       "@router/*": ["src/router/*"],
+
     },
 
     /* Linting */
