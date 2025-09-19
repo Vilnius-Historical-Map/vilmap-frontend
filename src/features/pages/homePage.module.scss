@@ -1,8 +1,47 @@
 .homepage{
 
-  &__background{
-    height: 50rem;
-    background-image: url('src/assets/images/background.svg');
-    background-repeat: no-repeat;
+  padding: 4.625rem 5.687rem;
+&__wrapper{
+  background-image: url("src/assets/images/vilnius_ai.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+
+  &__left{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 50%;
+
   }
+ &__right{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 50%;
+  }
+
+  
+}
+
+&__h1{
+  font-size: 3.125rem;
+  font-weight: 700;
+  line-height: 3.75rem;
+  color: var(--primary-color);
+  max-width: 42.875rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 2.5rem;
+  margin-top: 4.375rem;
+  &__span{
+    color: var(--secondary-color);
+    margin-left: 21.738rem;
+}
+}
+
+&__button{
+  margin-right: 2.5rem;
+  margin-bottom: 4.375rem;
+}
 }
