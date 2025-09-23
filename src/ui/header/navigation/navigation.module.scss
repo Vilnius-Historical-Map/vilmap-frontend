@@ -8,7 +8,13 @@
   gap: 1.25rem;
 
   &__link{
-    color: var(--secondary-color)
+    color: var(--secondary-color);
+
+    &__active{
+      color: var(--secondary-color);
+      font-weight: 700;
   }
   }
+
+}
 }

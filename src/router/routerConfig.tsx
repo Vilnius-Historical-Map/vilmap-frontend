@@ -13,4 +13,19 @@ export const RoutesConfig: IRoute[] = [
     element: <HomePage/>,
     isPrivate: false,
   },
+  {
+    path: "/community",
+    element: <div>Community</div>,
+    isPrivate: false,
+  },
+  {
+    path: "/project", 
+    element: <div>Project</div>, 
+    isPrivate: false,
+  },
+  {
+    path: "/login",
+    element: <div>Login</div>, 
+    isPrivate: false,
+  },
 ]
