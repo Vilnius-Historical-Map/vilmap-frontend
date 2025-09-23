@@ -1,5 +1,6 @@
 import type { ReactElement } from "react";
-import { HomePage } from "@pages/homePage.component";
+import { HomePage } from "@pages/homePage/homePage.component";
+import { MapPage } from "@pages/mapPage/mapPage.component";
 
  interface IRoute {
    path: string;
@@ -11,6 +12,11 @@ export const RoutesConfig: IRoute[] = [
   {
     path: "/",
     element: <HomePage/>,
+    isPrivate: false,
+  },
+  {
+    path: '/map',
+    element: <MapPage />,
     isPrivate: false,
   },
   {

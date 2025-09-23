@@ -1,7 +1,13 @@
 import { Button } from '@ui/button/button'
 import styles from './homePage.module.scss'
+import { useNavigate } from 'react-router-dom'
 
 export const HomePage = () => {
+  const navigate = useNavigate()
+  const handleExploreClick = () => {
+    navigate('/map')
+  }
+
   return (
     <section className={styles.homepage}>
 
@@ -14,7 +20,7 @@ export const HomePage = () => {
       </div>
 
       <div className={styles.homepage__wrapper__right}>
-        <Button size='lg' className={styles.homepage__button}>Explore <img src="src\assets\images\arrow_right_alt.svg" alt="" /></Button>
+        <Button size='lg' className={styles.homepage__button} onClick={handleExploreClick}>Explore <img src="src\assets\images\arrow_right_alt.svg" alt="" /></Button>
 
       </div>
 
