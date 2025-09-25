@@ -45,7 +45,7 @@ export  const SearchForm = () => {
                 onClick={onClearFilters}
                 aria-label="Tap to clear the filter"
               >
-                <span className={styles.clearBtn}>×</span>
+                <span className={`${styles.clearBtn} material-symbols-outlined`}>close</span>
               </button>
             </div>
           ):  <div className={styles.searchFilter}>
