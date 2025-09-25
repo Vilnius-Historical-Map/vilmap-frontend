@@ -1,6 +1,7 @@
 import type { ReactElement } from "react";
 import { HomePage } from "@pages/homePage/homePage.component";
 import { MapPage } from "@pages/mapPage/mapPage.component";
+import { NotFoundPage } from "@pages/notFoundPage/notFoundPage.component";
 
  interface IRoute {
    path: string;
@@ -34,4 +35,9 @@ export const RoutesConfig: IRoute[] = [
     element: <div>Login</div>, 
     isPrivate: false,
   },
+  {
+    path: "*",
+    element: <NotFoundPage/>,  
+    isPrivate: false,
+  }
 ]
