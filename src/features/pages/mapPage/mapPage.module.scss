@@ -1,7 +1,24 @@
 .mapPage {
 &__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 2.8125rem 3.25rem;
+}
+
+&__orientation {
+    display: flex;
+    justify-content: space-between;
+    gap: 2.2rem;
+    max-width: 11.7rem;
+    width: 100%;
+}
+&__option{
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 0.375rem;
 }
 }

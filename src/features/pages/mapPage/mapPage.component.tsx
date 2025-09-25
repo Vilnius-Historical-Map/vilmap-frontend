@@ -8,14 +8,14 @@ export const MapPage = () => {
       <div className={styles.mapPage__wrapper}>
          <SearchForm />
         <div className={styles.mapPage__orientation}>
-          <button>
+          <button className={styles.mapPage__option}>
             Filter
             <span className="material-symbols-outlined"> filter_list</span>
           </button>
 
-          <button>
+          <button className={styles.mapPage__option}>
             Sort by
-            <span className="material-symbols-outlined"> filter_list</span>
+            <span className="material-symbols-outlined"> keyboard_arrow_down</span>
           </button>
 
         </div>
