@@ -1,0 +1,29 @@
+.notFoundPage{  
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+  }
+}
+.errorStatus {
+  font-size: 96px;
+  font-weight: bold;
+  color: var(--primary-color);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img{
+    height: 80px;
+    width: 80px;
+  }
+}
+
+.errorMessage {
+  font-size: 1.75rem;
+}
