@@ -24,10 +24,10 @@ jobs:
           persist-credentials: false
 
       - name: Install dependencies
-        run: nmp ci
+        run: npm ci
 
       - name: Build Vite app
-        run: nmp run build
+        run: npm run build
 
       - name: Deploy to S3
         uses: reggionick/s3-deploy@v4
